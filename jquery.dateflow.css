@@ -1,0 +1,181 @@
+.DF_flow {
+	font:10px Tahoma;
+	background:#dddddd;
+	color:#444444;
+	border:1px solid #aaaaaa;
+}
+
+.DF_flow tbody {
+	
+}
+
+
+.DF_year_marker {
+	text-align:center;
+	font-weight:bold;
+}
+
+.DF_month_marker {
+	padding:3px;
+	background:#dddddd;
+	cursor:pointer;
+}
+
+
+.DF_month {
+	background:#f4f4f4;
+}
+
+/*.DF_month.hover .DF_day {
+	background:#DDDDFF;
+}
+*/
+
+
+
+.DF_month .DF_day.selecting {
+	background:#1144FF;
+	color:white;
+}
+
+.DF_month .DF_day.selected {
+	background:#E48F16;
+	color:white;
+	font-weight:bold;
+}
+
+
+.DF_month .selected.selecting {
+	background:#1144FF;
+	color:white;
+}
+
+.DF_month .DF_day.deselecting {
+	background:#FF1144;
+	color:white;
+}
+
+.DF_month .DF_day.selected.deselecting {
+	background:#FF1144;
+	color:white;
+}
+
+.DF_day {
+	background:transparent;
+	width:15px;
+	text-align:right;
+	padding:3px;
+	border:1px solid #aaaaaa;
+	cursor:pointer;
+}
+
+.DF_empty {
+	padding:3px;
+	background:#dddddd;
+}
+
+
+
+
+.DF_day.DF_empty.hover {
+	
+}
+
+.hover {
+	background:#FAFAFA;
+	outline:1px solid #000000;
+}
+
+
+.DF_month .DF_even_week {
+	color:#114488;
+	/*border-color:#5588BB;*/
+}
+
+
+.DF_month .DF_odd_week {
+	color:#881144;
+	/*border-color:#BB5588;*/
+}
+
+
+.DF_markers {
+padding:2px;
+background:#dddddd;
+border:1px solid #aaaaaa;
+display:table;
+border-top:none;
+}
+
+.DF_marker {
+	font:10px Tahoma;
+	padding:3px;
+	display:inline-block;
+	margin:2px;
+	cursor:pointer;
+	border:1px solid white;
+}
+
+.DF_marker.current {
+	outline:1px solid black;
+}
+
+/*
+.DF_month .DF_weekend {
+	background:#ffeeee;
+	color:black;
+}
+
+.DF_month .DF_day.DF_even_week {
+	background:#fdfdfd;
+}
+
+	.DF_month .DF_day.DF_even_week.DF_monday {
+		background:#eeeeee;
+	}
+
+
+.DF_month .DF_day.DF_odd_week {
+	background:#f2f2f2;
+}
+	.DF_month .DF_day.DF_odd_week.DF_monday {
+		background:#dddddd;
+	}
+
+
+*/
+
+.DF_day.darkblue,.DF_marker.darkblue  {
+	background:#114488;
+	color:white;
+}
+
+.DF_day.black,.DF_marker.black {
+	background-color:black;
+	color:white;
+	color:#aaaaaa;
+}
+
+
+.DF_day.darkgreen,.DF_marker.darkgreen  {
+	background:#118844;
+	color:white;
+}
+
+.DF_day.darkred,.DF_marker.darkred {
+	background:#881144;
+	color:white;
+}
+
+
+.DF_day.white,.DF_marker.white {
+	background:#fafafa;
+	color:#333333;
+}
+
+.DF_day.lightred,.DF_marker.lightred {
+	background:#F4BCA4;
+	color:black;
+}
+
+
